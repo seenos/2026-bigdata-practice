@@ -25,6 +25,29 @@ python ../check.py w03
 
 성능 측정 재실행: `python task2_crossover.py --sizes 250,500,750,1000,2000,4000` (결과 누적).
 
-기존 `w03-lsh/task1/`는 이전 Task 1 제출본입니다. 최신 3주차 전체 제출본은 `w03-lsh/`와 `w03-lsh/out/`입니다.
+## 파일 구조
+
+```text
+2026-bigdata-practice/
+├── README.md
+├── check.py
+└── w03-lsh/
+    ├── task1_minhash.py
+    ├── task2_crossover.py
+    ├── task3_scale.py
+    ├── bench.py
+    ├── test_tasks.py
+    ├── task1-observation-detail.md
+    └── out/
+        ├── crossover.json
+        ├── curve.md
+        ├── bench.txt
+        ├── observation.md
+        ├── task3-analysis.md
+        ├── band_experiment.json
+        └── machine.json
+```
+
+3주차 전체 제출본은 `w03-lsh/`이며, 측정 결과와 통합 관찰은 `w03-lsh/out/`에 있습니다. 상세 설명과 실험 원시 자료도 함께 보관합니다.
 
 [수업 원본](https://github.com/codingchild2424/2026-lecture-bigdata-practice/tree/main/w03-lsh)
