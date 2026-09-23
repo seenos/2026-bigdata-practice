@@ -28,7 +28,7 @@ def machine():
         "processor": platform.processor() or platform.machine(),
         "python": platform.python_version(),
     }
-    metadata = os.path.join(OUT, "machine.json")
+    metadata = os.path.join(OUT, "evidence", "machine.json")
     if os.path.exists(metadata):
         with open(metadata, encoding="utf-8") as f:
             info.update(json.load(f))

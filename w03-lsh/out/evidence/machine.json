@@ -1,0 +1,9 @@
+{
+  "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz",
+  "ram_bytes": 16905064448,
+  "available_ram_bytes": 6073970688,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9",
+  "background": "Codex active; other user applications not controlled or closed. Timing includes tracemalloc overhead.",
+  "memory_metric": "tracemalloc peak Python allocations during find; excludes prebuilt input and is not total process RAM"
+}
