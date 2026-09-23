@@ -1,24 +1,30 @@
 # 2026 빅데이터 실습 및 과제
 
-빅데이터 과목의 실습과 과제를 주차별·과제별 폴더로 정리한 저장소입니다.
-
 ## 과제 목록
 
-| 주차 | 주제 | 과제 | 설명 |
-|---|---|---|---|
-| 03 | LSH | [Task 1](w03-lsh/task1/) | 자카드 유사도, MinHash, LSH 구현 및 관찰 |
+| 주차 | 과제 | 결과 |
+|---|---|---|
+| 03 | [Finding Similar Items — Task 1·2·3](w03-lsh/) | 구현, 성능 측정, LSH 검색 실험 완료 |
 
-## Task 1 실행
+## 3주차 제출 자료
 
-Python 3에서 저장소의 최상위 폴더를 기준으로 실행합니다. 별도 패키지 설치는 필요하지 않습니다.
+- [통합 관찰](w03-lsh/out/observation.md)
+- [Task 2 측정 보고서](w03-lsh/out/curve.md)
+- [Task 3 수식과 밴드 실험](w03-lsh/out/task3-analysis.md)
+- [공식 벤치마크 결과](w03-lsh/out/bench.txt): 재현율 98.35%, 비교 132회, strong
+
+Python 3에서 실행합니다. 별도 패키지는 필요하지 않습니다.
 
 ```bash
-python w03-lsh/task1/task1_minhash.py --verify
+cd w03-lsh
+python task1_minhash.py --verify
+python bench.py --yours
+python test_tasks.py
+python ../check.py w03
 ```
 
-구현에 대한 설명은 [observation.md](w03-lsh/task1/observation.md)에 있습니다.
+성능 측정 재실행: `python task2_crossover.py --sizes 250,500,750,1000,2000,4000` (결과 누적).
 
-## 수업 자료
+기존 `w03-lsh/task1/`는 이전 Task 1 제출본입니다. 최신 3주차 전체 제출본은 `w03-lsh/`와 `w03-lsh/out/`입니다.
 
-- [수업 저장소](https://github.com/codingchild2424/2026-lecture-bigdata-practice)
-- [Task 1 과제 안내](https://github.com/codingchild2424/2026-lecture-bigdata-practice/blob/main/w03-lsh/task1.md)
+[수업 원본](https://github.com/codingchild2424/2026-lecture-bigdata-practice/tree/main/w03-lsh)
