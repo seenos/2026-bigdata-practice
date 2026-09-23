@@ -9,6 +9,9 @@
 ## 3주차 제출 자료
 
 - [통합 관찰](w03-lsh/out/observation.md)
+- [Task 1 observation](w03-lsh/out/task1-observation.md)
+- [Task 2 observation](w03-lsh/out/task2-observation.md)
+- [Task 3 observation](w03-lsh/out/task3-observation.md)
 - [Task 2 측정 보고서](w03-lsh/out/curve.md)
 - [Task 3 수식과 밴드 실험](w03-lsh/out/task3-analysis.md)
 - [공식 벤치마크 결과](w03-lsh/out/bench.txt): 재현율 98.35%, 비교 132회, strong
@@ -43,6 +46,9 @@ python ../check.py w03
         ├── curve.md
         ├── bench.txt
         ├── observation.md
+        ├── task1-observation.md
+        ├── task2-observation.md
+        ├── task3-observation.md
         ├── task3-analysis.md
         ├── band_experiment.json
         └── machine.json
