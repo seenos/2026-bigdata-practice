@@ -1,0 +1,78 @@
+{
+  "runs": [
+    {
+      "n": 250,
+      "brute_s": 0.18106440000701696,
+      "brute_calls": 31125,
+      "brute_peak_bytes": 7400,
+      "lsh_s": 1.465141599997878,
+      "lsh_calls": 1,
+      "lsh_peak_bytes": 23885553
+    },
+    {
+      "n": 500,
+      "brute_s": 0.8129469000268728,
+      "brute_calls": 124750,
+      "brute_peak_bytes": 8104,
+      "lsh_s": 1.750285500078462,
+      "lsh_calls": 7,
+      "lsh_peak_bytes": 25287420
+    },
+    {
+      "n": 1000,
+      "brute_s": 3.6010563001036644,
+      "brute_calls": 499500,
+      "brute_peak_bytes": 10664,
+      "lsh_s": 2.0390704999445006,
+      "lsh_calls": 26,
+      "lsh_peak_bytes": 25966088
+    },
+    {
+      "n": 2000,
+      "brute_s": 14.92659879999701,
+      "brute_calls": 1999000,
+      "brute_peak_bytes": 21384,
+      "lsh_s": 2.9963791000191122,
+      "lsh_calls": 109,
+      "lsh_peak_bytes": 27262092
+    },
+    {
+      "n": 4000,
+      "brute_s": 62.16549899999518,
+      "brute_calls": 7998000,
+      "brute_peak_bytes": 22312,
+      "lsh_s": 4.309916900005192,
+      "lsh_calls": 163,
+      "lsh_peak_bytes": 29614256,
+      "note": "Exploratory run: separate bench validation overlapped part of this 4000-document timing; exclude from main curve and use isolated repeat."
+    },
+    {
+      "n": 750,
+      "brute_s": 2.0777941999258474,
+      "brute_calls": 280875,
+      "brute_peak_bytes": 8824,
+      "lsh_s": 1.9964614000637084,
+      "lsh_calls": 14,
+      "lsh_peak_bytes": 25726360
+    },
+    {
+      "n": 4000,
+      "brute_s": 59.442813600064255,
+      "brute_calls": 7998000,
+      "brute_peak_bytes": 22312,
+      "lsh_s": 4.430475099943578,
+      "lsh_calls": 163,
+      "lsh_peak_bytes": 29714016
+    }
+  ],
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "python": "3.11.9",
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz",
+    "ram_bytes": 16905064448,
+    "available_ram_bytes": 6073970688,
+    "background": "Codex active; other user applications not controlled or closed. Timing includes tracemalloc overhead.",
+    "memory_metric": "tracemalloc peak Python allocations during find; excludes prebuilt input and is not total process RAM"
+  }
+}
