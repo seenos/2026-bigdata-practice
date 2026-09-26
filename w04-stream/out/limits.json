@@ -1,0 +1,161 @@
+{
+  "runs": [
+    {
+      "n": 10000,
+      "true_distinct": 3675,
+      "exact_s": 0.0354075999930501,
+      "exact_peak_bytes": 343120,
+      "mode": "paired",
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "recorded_at": "2026-09-23T05:27:20.912916+00:00",
+        "background": "Codex active; other user applications not controlled or closed.",
+        "memory_metric": "tracemalloc peak Python allocations; includes stream generation, not total process RAM",
+        "ram_bytes": 16905064448,
+        "available_ram_bytes": 7846309888,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "fm_estimate": 4096.0,
+      "fm_s": 4.159929599962197,
+      "fm_peak_bytes": 5007,
+      "fm_ratio": 1.1145578231292517
+    },
+    {
+      "n": 40000,
+      "true_distinct": 14665,
+      "exact_s": 0.1403558999300003,
+      "exact_peak_bytes": 1368255,
+      "mode": "paired",
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "recorded_at": "2026-09-23T05:27:20.912916+00:00",
+        "background": "Codex active; other user applications not controlled or closed.",
+        "memory_metric": "tracemalloc peak Python allocations; includes stream generation, not total process RAM",
+        "ram_bytes": 16905064448,
+        "available_ram_bytes": 7846309888,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "fm_estimate": 21504.0,
+      "fm_s": 17.42955030000303,
+      "fm_peak_bytes": 5072,
+      "fm_ratio": 1.4663484486873508
+    },
+    {
+      "n": 160000,
+      "true_distinct": 58799,
+      "exact_s": 0.724670400028117,
+      "exact_peak_bytes": 5500925,
+      "mode": "paired",
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "recorded_at": "2026-09-23T05:27:20.912916+00:00",
+        "background": "Codex active; other user applications not controlled or closed.",
+        "memory_metric": "tracemalloc peak Python allocations; includes stream generation, not total process RAM",
+        "ram_bytes": 16905064448,
+        "available_ram_bytes": 7846309888,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "fm_estimate": 71680.0,
+      "fm_s": 87.55346620001364,
+      "fm_peak_bytes": 5072,
+      "fm_ratio": 1.2190683515025766
+    },
+    {
+      "n": 640000,
+      "true_distinct": 235071,
+      "exact_s": 3.151581099955365,
+      "exact_peak_bytes": 22159352,
+      "mode": "paired",
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "recorded_at": "2026-09-23T05:27:20.912916+00:00",
+        "background": "Codex active; other user applications not controlled or closed.",
+        "memory_metric": "tracemalloc peak Python allocations; includes stream generation, not total process RAM",
+        "ram_bytes": 16905064448,
+        "available_ram_bytes": 7846309888,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "fm_estimate": 434176.0,
+      "fm_s": 326.6620992999524,
+      "fm_peak_bytes": 5073,
+      "fm_ratio": 1.8469994171973574
+    },
+    {
+      "n": 6400000,
+      "true_distinct": 2349909,
+      "exact_s": 26.297595100011677,
+      "exact_peak_bytes": 207086882,
+      "mode": "exact_only",
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "recorded_at": "2026-09-23T05:34:51.362280+00:00",
+        "background": "Codex active; other user applications not controlled or closed.",
+        "memory_metric": "tracemalloc peak Python allocations; includes stream generation, not total process RAM",
+        "ram_bytes": 16905064448,
+        "available_ram_bytes": 7681863680,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      }
+    },
+    {
+      "n": 16000000,
+      "true_distinct": 5874161,
+      "exact_s": 66.98016249993816,
+      "exact_peak_bytes": 703772479,
+      "mode": "exact_only",
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "recorded_at": "2026-09-23T05:35:23.363857+00:00",
+        "background": "Codex active; other user applications not controlled or closed.",
+        "memory_metric": "tracemalloc peak Python allocations; includes stream generation, not total process RAM",
+        "ram_bytes": 16905064448,
+        "available_ram_bytes": 7827673088,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      }
+    },
+    {
+      "n": 6400000,
+      "true_distinct": 2349909,
+      "exact_s": 55.5977974999696,
+      "exact_peak_bytes": 207086882,
+      "mode": "paired",
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "recorded_at": "2026-09-24T00:36:03.148103+00:00",
+        "background": "Codex active; other user applications not controlled or closed.",
+        "memory_metric": "tracemalloc peak Python allocations; includes stream generation, not total process RAM",
+        "ram_bytes": 16905064448,
+        "available_ram_bytes": 7880617984,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "fm_estimate": 2097152.0,
+      "fm_s": 5718.846710399957,
+      "fm_peak_bytes": 5010,
+      "fm_ratio": 0.8924396646848878
+    }
+  ],
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "python": "3.11.9",
+    "recorded_at": "2026-09-24T00:36:03.148103+00:00",
+    "background": "Codex active; other user applications not controlled or closed.",
+    "memory_metric": "tracemalloc peak Python allocations; includes stream generation, not total process RAM",
+    "ram_bytes": 16905064448,
+    "available_ram_bytes": 7880617984,
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+  }
+}
