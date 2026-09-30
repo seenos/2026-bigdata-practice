@@ -6,6 +6,7 @@
 |---|---|---|
 | 03 | [Finding Similar Items — Task 1·2·3](w03-lsh/) | 구현, 성능 측정, LSH 검색 실험 완료 |
 | 04 | [Mining Data Streams — Task 1·2·3](w04-stream/) | 스트림 알고리즘 구현, 메모리 비교, 필터 개선 완료 |
+| 05 | [Link Analysis — Task 1·2·3](w05-pagerank/) | PageRank 구현, 수렴 실험, 희소 구현 비교 완료 |
 
 ## 3주차 제출 자료
 
@@ -30,7 +31,7 @@ python ../check.py w03
 
 ## 파일 구조
 
-4주차 파일 구조와 실행 방법은 [4주차 안내](w04-stream/README.md)에 있습니다. 아래는 기존 3주차 구조입니다.
+주차별 파일 구조와 실행 방법은 [4주차 안내](w04-stream/README.md), [5주차 안내](w05-pagerank/README.md)에 있습니다. 아래는 기존 3주차 구조입니다.
 
 ```text
 2026-bigdata-practice/
@@ -78,3 +79,20 @@ python ../check.py w04
 ```
 
 Task 2는 640만 개까지 두 방법을 비교했고, 1,600만 개는 set의 추가 실험으로 구분했습니다. 1,600만 개의 FM은 중단되어 완료 결과가 없습니다. 대규모 측정을 다시 실행하지 않아도 저장된 결과와 문서를 확인할 수 있습니다.
+
+## 5주차 제출 자료
+
+- [제출용 통합 관찰](w05-pagerank/out/observation.md)
+- [Task 1 observation](w05-pagerank/observations/task1.md)
+- [Task 2 observation](w05-pagerank/observations/task2.md)
+- [Task 3 observation](w05-pagerank/observations/task3.md)
+- [수렴 실험 보고서](w05-pagerank/out/convergence.md) · [원시 측정값](w05-pagerank/out/convergence.json)
+- [공식 벤치마크 결과](w05-pagerank/out/bench.txt): 최대 점수 차이 5.55e-17, strong
+
+```bash
+cd w05-pagerank
+python test_tasks.py
+python ../check.py w05
+```
+
+필수 Task 1·2·3을 수행했습니다. 선택 과제인 Task 4(Spark)는 수행하지 않았습니다. Python 표준 라이브러리만 사용하며 실험 재현 방법은 [5주차 안내](w05-pagerank/README.md)에 있습니다.
