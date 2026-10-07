@@ -7,6 +7,7 @@
 | 03 | [Finding Similar Items — Task 1·2·3](w03-lsh/) | 구현, 성능 측정, LSH 검색 실험 완료 |
 | 04 | [Mining Data Streams — Task 1·2·3](w04-stream/) | 스트림 알고리즘 구현, 메모리 비교, 필터 개선 완료 |
 | 05 | [Link Analysis — Task 1·2·3](w05-pagerank/) | PageRank 구현, 수렴 실험, 희소 구현 비교 완료 |
+| 06 | [Frequent Itemsets — Task 1·2·3](w06-apriori/) | Apriori·PCY 구현, 지지도 및 메모리 비교 완료 |
 
 ## 3주차 제출 자료
 
@@ -96,3 +97,19 @@ python ../check.py w05
 ```
 
 필수 Task 1·2·3을 수행했습니다. 선택 과제인 Task 4(Spark)는 수행하지 않았습니다. Python 표준 라이브러리만 사용하며 실험 재현 방법은 [5주차 안내](w05-pagerank/README.md)에 있습니다.
+
+## 6주차 제출 자료
+
+- [6주차 안내·실행 방법](w06-apriori/README.md)
+- [제출용 통합 관찰](w06-apriori/out/observation.md)
+- [Task 1 관찰](w06-apriori/observations/task1.md) · [Task 2 관찰](w06-apriori/observations/task2.md) · [Task 3 관찰](w06-apriori/observations/task3.md)
+- [지지도별 측정 표·그래프](w06-apriori/out/explosion.md)
+- [공식 벤치마크](w06-apriori/out/bench.txt): 쌍 카운터 97.6% 감소, strong
+
+```bash
+cd w06-apriori
+python test_tasks.py
+python ../check.py w06
+```
+
+지지도 1까지 측정했지만 Task 2의 실제 부담 한계는 관찰되지 않았습니다. 이 한계를 문서에 명시했고 선택 Task 4(SON)는 제외했습니다.

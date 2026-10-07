@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+<rect width="900" height="480" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#172b4d">
+<text x="60" y="30" font-size="20">Apriori: counters versus frequent pairs</text>
+<text x="60" y="53" font-size="13">20,000 baskets; fixed data; logarithmic count axis</text>
+<path d="M90 395.0 H830" stroke="#dde3ea"/><text x="25" y="399.0" font-size="12">10^2</text>
+<path d="M90 335.0 H830" stroke="#dde3ea"/><text x="25" y="339.0" font-size="12">10^3</text>
+<path d="M90 275.0 H830" stroke="#dde3ea"/><text x="25" y="279.0" font-size="12">10^4</text>
+<path d="M90 215.0 H830" stroke="#dde3ea"/><text x="25" y="219.0" font-size="12">10^5</text>
+<path d="M90 155.0 H830" stroke="#dde3ea"/><text x="25" y="159.0" font-size="12">10^6</text>
+<path d="M90 95.0 H830" stroke="#dde3ea"/><text x="25" y="99.0" font-size="12">10^7</text>
+<text x="90.0" y="420" text-anchor="middle" font-size="12">400</text>
+<text x="182.5" y="420" text-anchor="middle" font-size="12">200</text>
+<text x="275.0" y="420" text-anchor="middle" font-size="12">100</text>
+<text x="367.5" y="420" text-anchor="middle" font-size="12">50</text>
+<text x="460.0" y="420" text-anchor="middle" font-size="12">25</text>
+<text x="552.5" y="420" text-anchor="middle" font-size="12">12</text>
+<text x="645.0" y="420" text-anchor="middle" font-size="12">6</text>
+<text x="737.5" y="420" text-anchor="middle" font-size="12">3</text>
+<text x="830.0" y="420" text-anchor="middle" font-size="12">1</text>
+<polyline points="90.0,273.5185482586741 182.5,228.91458417990927 275.0,188.76341695034574 367.5,160.16293974644645 460.0,157.93560981911804 552.5,157.93560981911804 645.0,157.93560981911804 737.5,157.93560981911804 830.0,157.93560981911804" fill="none" stroke="#2255aa" stroke-width="3"/>
+<circle cx="90.0" cy="273.5185482586741" r="4" fill="#2255aa"><title>Support 400: 10,585</title></circle>
+<circle cx="182.5" cy="228.91458417990927" r="4" fill="#2255aa"><title>Support 200: 58,626</title></circle>
+<circle cx="275.0" cy="188.76341695034574" r="4" fill="#2255aa"><title>Support 100: 273,701</title></circle>
+<circle cx="367.5" cy="160.16293974644645" r="4" fill="#2255aa"><title>Support 50: 820,259</title></circle>
+<circle cx="460.0" cy="157.93560981911804" r="4" fill="#2255aa"><title>Support 25: 893,456</title></circle>
+<circle cx="552.5" cy="157.93560981911804" r="4" fill="#2255aa"><title>Support 12: 893,456</title></circle>
+<circle cx="645.0" cy="157.93560981911804" r="4" fill="#2255aa"><title>Support 6: 893,456</title></circle>
+<circle cx="737.5" cy="157.93560981911804" r="4" fill="#2255aa"><title>Support 3: 893,456</title></circle>
+<circle cx="830.0" cy="157.93560981911804" r="4" fill="#2255aa"><title>Support 1: 893,456</title></circle>
+<text x="90" y="78" fill="#2255aa" font-size="14">Pair counters</text>
+<polyline points="90.0,371.2280391742558 182.5,341.6082967245087 275.0,313.9386288449526 367.5,286.6414189569462 460.0,261.1041796661054 552.5,236.92169220486352 645.0,214.49983348526507 737.5,191.11797163097805 830.0,157.93560981911804" fill="none" stroke="#bd4b12" stroke-width="3"/>
+<circle cx="90.0" cy="371.2280391742558" r="4" fill="#bd4b12"><title>Support 400: 249</title></circle>
+<circle cx="182.5" cy="341.6082967245087" r="4" fill="#bd4b12"><title>Support 200: 776</title></circle>
+<circle cx="275.0" cy="313.9386288449526" r="4" fill="#bd4b12"><title>Support 100: 2,244</title></circle>
+<circle cx="367.5" cy="286.6414189569462" r="4" fill="#bd4b12"><title>Support 50: 6,397</title></circle>
+<circle cx="460.0" cy="261.1041796661054" r="4" fill="#bd4b12"><title>Support 25: 17,045</title></circle>
+<circle cx="552.5" cy="236.92169220486352" r="4" fill="#bd4b12"><title>Support 12: 43,116</title></circle>
+<circle cx="645.0" cy="214.49983348526507" r="4" fill="#bd4b12"><title>Support 6: 101,938</title></circle>
+<circle cx="737.5" cy="191.11797163097805" r="4" fill="#bd4b12"><title>Support 3: 250,054</title></circle>
+<circle cx="830.0" cy="157.93560981911804" r="4" fill="#bd4b12"><title>Support 1: 893,456</title></circle>
+<text x="290" y="78" fill="#bd4b12" font-size="14">Frequent pairs</text>
+<text x="460" y="452" text-anchor="middle" font-size="14">Support threshold (tested settings, decreasing)</text></g></svg>

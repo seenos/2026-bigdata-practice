@@ -1,0 +1,112 @@
+{
+  "seed": 246,
+  "support": 50,
+  "rows": [
+    {
+      "baskets": 200,
+      "baseline": {
+        "seconds": 0.00225650001084432,
+        "peak_bytes": 55576,
+        "peak_counters": 10,
+        "answers": 1
+      },
+      "pcy": {
+        "seconds": 5.124989399977494,
+        "peak_bytes": 4331881,
+        "peak_counters": 2,
+        "answers": 1,
+        "buckets": 1048576,
+        "counted_pairs": 1,
+        "bucket_array_bytes": 4194384,
+        "bitmap_bytes": 131129,
+        "frequent_buckets": 1
+      },
+      "exact_match": true
+    },
+    {
+      "baskets": 1000,
+      "baseline": {
+        "seconds": 0.13395889999810606,
+        "peak_bytes": 183052,
+        "peak_counters": 1078,
+        "answers": 59
+      },
+      "pcy": {
+        "seconds": 8.725415400025668,
+        "peak_bytes": 4347593,
+        "peak_counters": 118,
+        "answers": 59,
+        "buckets": 1048576,
+        "counted_pairs": 59,
+        "bucket_array_bytes": 4194384,
+        "bitmap_bytes": 131129,
+        "frequent_buckets": 59
+      },
+      "exact_match": true
+    },
+    {
+      "baskets": 5000,
+      "baseline": {
+        "seconds": 2.1500638000143226,
+        "peak_bytes": 6430588,
+        "peak_counters": 50168,
+        "answers": 823
+      },
+      "pcy": {
+        "seconds": 26.184656500001438,
+        "peak_bytes": 4457961,
+        "peak_counters": 1723,
+        "answers": 823,
+        "buckets": 1048576,
+        "counted_pairs": 900,
+        "bucket_array_bytes": 4194384,
+        "bitmap_bytes": 131129,
+        "frequent_buckets": 851
+      },
+      "exact_match": true
+    },
+    {
+      "baskets": 20000,
+      "baseline": {
+        "seconds": 15.250952800008235,
+        "peak_bytes": 102454316,
+        "peak_counters": 820259,
+        "answers": 6397
+      },
+      "pcy": {
+        "seconds": 65.12144830002217,
+        "peak_bytes": 4481449,
+        "peak_counters": 19518,
+        "answers": 6397,
+        "buckets": 1048576,
+        "counted_pairs": 13121,
+        "bucket_array_bytes": 4194384,
+        "bitmap_bytes": 131129,
+        "frequent_buckets": 6979
+      },
+      "exact_match": true
+    },
+    {
+      "baskets": 20000,
+      "baseline": {
+        "seconds": 15.250952800008235,
+        "peak_bytes": 102454316,
+        "peak_counters": 820259,
+        "answers": 6397
+      },
+      "pcy": {
+        "seconds": 87.51923879998503,
+        "peak_bytes": 102120409,
+        "peak_counters": 826656,
+        "answers": 6397,
+        "buckets": 16384,
+        "counted_pairs": 820259,
+        "bucket_array_bytes": 65616,
+        "bitmap_bytes": 2105,
+        "frequent_buckets": 16384
+      },
+      "exact_match": true
+    }
+  ],
+  "note": "Single run per configuration. tracemalloc includes solver allocations and output; excludes prebuilt input and preexisting reference result. Same fixed-seed input prefix. No concurrent benchmark."
+}

@@ -1,0 +1,183 @@
+{
+  "runs": [
+    {
+      "support": 400,
+      "frequent_pairs": 249,
+      "peak_counters": 10585,
+      "seconds": 3.340581500000553,
+      "peak_bytes": 1059798,
+      "frequent_items": 146,
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "background": "Codex active; other user applications not controlled.",
+        "recorded_at": "2026-10-07T04:03:15.984641+00:00",
+        "ram_bytes": 16905064448,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "status": "completed"
+    },
+    {
+      "support": 200,
+      "frequent_pairs": 776,
+      "peak_counters": 58626,
+      "seconds": 7.863775500009069,
+      "peak_bytes": 6498846,
+      "frequent_items": 345,
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "background": "Codex active; other user applications not controlled.",
+        "recorded_at": "2026-10-07T04:03:37.427497+00:00",
+        "ram_bytes": 16905064448,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "status": "completed"
+    },
+    {
+      "support": 100,
+      "frequent_pairs": 2244,
+      "peak_counters": 273701,
+      "seconds": 12.71498089999659,
+      "peak_bytes": 26530220,
+      "frequent_items": 825,
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "background": "Codex active; other user applications not controlled.",
+        "recorded_at": "2026-10-07T04:03:37.427497+00:00",
+        "ram_bytes": 16905064448,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "status": "completed"
+    },
+    {
+      "support": 50,
+      "frequent_pairs": 6397,
+      "peak_counters": 820259,
+      "seconds": 13.826334600016708,
+      "peak_bytes": 102428948,
+      "frequent_items": 1849,
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "background": "Codex active; other user applications not controlled.",
+        "recorded_at": "2026-10-07T04:03:37.427497+00:00",
+        "ram_bytes": 16905064448,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "status": "completed"
+    },
+    {
+      "support": 25,
+      "frequent_pairs": 17045,
+      "peak_counters": 893456,
+      "seconds": 11.570624499989208,
+      "peak_bytes": 102171324,
+      "frequent_items": 2000,
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "background": "Codex active; other user applications not controlled.",
+        "recorded_at": "2026-10-07T04:03:37.427497+00:00",
+        "ram_bytes": 16905064448,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "status": "completed"
+    },
+    {
+      "support": 12,
+      "frequent_pairs": 43116,
+      "peak_counters": 893456,
+      "seconds": 13.498108100000536,
+      "peak_bytes": 102718876,
+      "frequent_items": 2000,
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "background": "Codex active; other user applications not controlled.",
+        "recorded_at": "2026-10-07T04:03:37.427497+00:00",
+        "ram_bytes": 16905064448,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "status": "completed"
+    },
+    {
+      "support": 6,
+      "frequent_pairs": 101938,
+      "peak_counters": 893456,
+      "seconds": 20.2364637000137,
+      "peak_bytes": 119356700,
+      "frequent_items": 2000,
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "background": "Codex active; other user applications not controlled.",
+        "recorded_at": "2026-10-07T04:03:37.427497+00:00",
+        "ram_bytes": 16905064448,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "status": "completed"
+    },
+    {
+      "support": 3,
+      "frequent_pairs": 250054,
+      "peak_counters": 893456,
+      "seconds": 25.33499549998669,
+      "peak_bytes": 156592644,
+      "frequent_items": 2000,
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "background": "Codex active; other user applications not controlled.",
+        "recorded_at": "2026-10-07T04:03:37.427497+00:00",
+        "ram_bytes": 16905064448,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "status": "completed"
+    },
+    {
+      "support": 1,
+      "frequent_pairs": 893456,
+      "peak_counters": 893456,
+      "seconds": 18.540114000003086,
+      "peak_bytes": 327024644,
+      "frequent_items": 2000,
+      "environment": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+        "python": "3.11.9",
+        "background": "Codex active; other user applications not controlled.",
+        "recorded_at": "2026-10-07T04:03:37.427497+00:00",
+        "ram_bytes": 16905064448,
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+      },
+      "status": "completed"
+    }
+  ],
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "python": "3.11.9",
+    "background": "Codex active; other user applications not controlled.",
+    "recorded_at": "2026-10-07T04:03:37.427497+00:00",
+    "ram_bytes": 16905064448,
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+  },
+  "protocol": {
+    "seed": 246,
+    "baskets": 20000,
+    "items": 2000,
+    "time_stop_seconds": 60,
+    "memory_stop_bytes": 1000000000,
+    "note": "Stop expansion after a completed condition reaches either criterion. tracemalloc includes algorithm allocations, excludes prebuilt baskets. Single run per support."
+  }
+}
