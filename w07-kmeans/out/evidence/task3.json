@@ -1,0 +1,304 @@
+{
+  "points": 20000,
+  "dim": 20,
+  "k": 12,
+  "max_iter": 50,
+  "exact_labels": true,
+  "exact_centroids": true,
+  "iterations": 43,
+  "baseline": {
+    "calls": 10320000,
+    "sse": 10737882.944550686,
+    "seconds": 85.84799190005288
+  },
+  "yours": {
+    "calls": 1150986,
+    "sse": 10737882.944550686,
+    "seconds": 9.386380100040697
+  },
+  "cut": 0.8884703488372093,
+  "distance_counts": {
+    "point": 1147710,
+    "movement": 504,
+    "separation": 2772
+  },
+  "pruning": {
+    "lower": 549881,
+    "separation": 218137,
+    "both": 68420,
+    "after_tightening": 43926,
+    "full_scans": 91982
+  },
+  "history": [
+    {
+      "iteration": 1,
+      "skipped_points": 0,
+      "distances": 240078,
+      "changed": true
+    },
+    {
+      "iteration": 2,
+      "skipped_points": 3400,
+      "distances": 201011,
+      "changed": true
+    },
+    {
+      "iteration": 3,
+      "skipped_points": 6983,
+      "distances": 162354,
+      "changed": true
+    },
+    {
+      "iteration": 4,
+      "skipped_points": 16563,
+      "distances": 41993,
+      "changed": true
+    },
+    {
+      "iteration": 5,
+      "skipped_points": 16401,
+      "distances": 44330,
+      "changed": true
+    },
+    {
+      "iteration": 6,
+      "skipped_points": 16929,
+      "distances": 37657,
+      "changed": true
+    },
+    {
+      "iteration": 7,
+      "skipped_points": 17699,
+      "distances": 28650,
+      "changed": true
+    },
+    {
+      "iteration": 8,
+      "skipped_points": 17810,
+      "distances": 27952,
+      "changed": true
+    },
+    {
+      "iteration": 9,
+      "skipped_points": 17770,
+      "distances": 28228,
+      "changed": true
+    },
+    {
+      "iteration": 10,
+      "skipped_points": 18607,
+      "distances": 18199,
+      "changed": true
+    },
+    {
+      "iteration": 11,
+      "skipped_points": 18430,
+      "distances": 20171,
+      "changed": true
+    },
+    {
+      "iteration": 12,
+      "skipped_points": 18579,
+      "distances": 18464,
+      "changed": true
+    },
+    {
+      "iteration": 13,
+      "skipped_points": 18882,
+      "distances": 14696,
+      "changed": true
+    },
+    {
+      "iteration": 14,
+      "skipped_points": 18682,
+      "distances": 17280,
+      "changed": true
+    },
+    {
+      "iteration": 15,
+      "skipped_points": 18999,
+      "distances": 13412,
+      "changed": true
+    },
+    {
+      "iteration": 16,
+      "skipped_points": 19069,
+      "distances": 12272,
+      "changed": true
+    },
+    {
+      "iteration": 17,
+      "skipped_points": 19100,
+      "distances": 11944,
+      "changed": true
+    },
+    {
+      "iteration": 18,
+      "skipped_points": 18913,
+      "distances": 14199,
+      "changed": true
+    },
+    {
+      "iteration": 19,
+      "skipped_points": 19196,
+      "distances": 10883,
+      "changed": true
+    },
+    {
+      "iteration": 20,
+      "skipped_points": 19016,
+      "distances": 13123,
+      "changed": true
+    },
+    {
+      "iteration": 21,
+      "skipped_points": 19076,
+      "distances": 12398,
+      "changed": true
+    },
+    {
+      "iteration": 22,
+      "skipped_points": 19069,
+      "distances": 12368,
+      "changed": true
+    },
+    {
+      "iteration": 23,
+      "skipped_points": 19109,
+      "distances": 11888,
+      "changed": true
+    },
+    {
+      "iteration": 24,
+      "skipped_points": 19188,
+      "distances": 10694,
+      "changed": true
+    },
+    {
+      "iteration": 25,
+      "skipped_points": 19343,
+      "distances": 8878,
+      "changed": true
+    },
+    {
+      "iteration": 26,
+      "skipped_points": 19443,
+      "distances": 7544,
+      "changed": true
+    },
+    {
+      "iteration": 27,
+      "skipped_points": 19447,
+      "distances": 7382,
+      "changed": true
+    },
+    {
+      "iteration": 28,
+      "skipped_points": 19304,
+      "distances": 9226,
+      "changed": true
+    },
+    {
+      "iteration": 29,
+      "skipped_points": 19583,
+      "distances": 5669,
+      "changed": true
+    },
+    {
+      "iteration": 30,
+      "skipped_points": 19504,
+      "distances": 6643,
+      "changed": true
+    },
+    {
+      "iteration": 31,
+      "skipped_points": 19408,
+      "distances": 7927,
+      "changed": true
+    },
+    {
+      "iteration": 32,
+      "skipped_points": 19470,
+      "distances": 7188,
+      "changed": true
+    },
+    {
+      "iteration": 33,
+      "skipped_points": 19358,
+      "distances": 8527,
+      "changed": true
+    },
+    {
+      "iteration": 34,
+      "skipped_points": 19485,
+      "distances": 6935,
+      "changed": true
+    },
+    {
+      "iteration": 35,
+      "skipped_points": 19359,
+      "distances": 8486,
+      "changed": true
+    },
+    {
+      "iteration": 36,
+      "skipped_points": 19450,
+      "distances": 7304,
+      "changed": true
+    },
+    {
+      "iteration": 37,
+      "skipped_points": 19462,
+      "distances": 7117,
+      "changed": true
+    },
+    {
+      "iteration": 38,
+      "skipped_points": 19723,
+      "distances": 3884,
+      "changed": true
+    },
+    {
+      "iteration": 39,
+      "skipped_points": 19561,
+      "distances": 5987,
+      "changed": true
+    },
+    {
+      "iteration": 40,
+      "skipped_points": 19376,
+      "distances": 8274,
+      "changed": true
+    },
+    {
+      "iteration": 41,
+      "skipped_points": 19620,
+      "distances": 5048,
+      "changed": true
+    },
+    {
+      "iteration": 42,
+      "skipped_points": 19846,
+      "distances": 2171,
+      "changed": true
+    },
+    {
+      "iteration": 43,
+      "skipped_points": 19806,
+      "distances": 2552,
+      "changed": false
+    }
+  ],
+  "first_iteration_fraction": 0.208584639604652,
+  "seed": 246,
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "background": "Codex active; other applications not controlled.",
+    "ram_bytes": 16905064448,
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+  },
+  "small_cases": 113,
+  "note": "One timing per solver; prebuilt input excluded. Official benchmark ran concurrently during part of measurement. Timings are not used for speedup claims. Calls include point-center, movement, and center separation. First iteration includes bound setup. Labels and centroids exactly match."
+}

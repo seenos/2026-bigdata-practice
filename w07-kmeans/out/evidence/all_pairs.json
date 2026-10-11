@@ -1,0 +1,105 @@
+{
+  "batch": "2026-10-11T07:39:08.732930+00:00",
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "background": "Codex active; other applications not controlled.",
+    "ram_bytes": 16905064448,
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+  },
+  "dim": 50,
+  "note": "All unordered distinct pairs of nested point prefixes; timings cumulative, includes pair calculations but excludes point generation.",
+  "runs": [
+    {
+      "dim": 50,
+      "points": 100,
+      "seed": 246,
+      "pairs": 4950,
+      "min": 2.0089226666256934,
+      "max": 3.638334148379498,
+      "contrast": 0.811087210485141,
+      "cumulative_seconds": 0.04347719997167587
+    },
+    {
+      "dim": 50,
+      "points": 300,
+      "seed": 246,
+      "pairs": 44850,
+      "min": 1.9055472270943066,
+      "max": 3.8513327030058733,
+      "contrast": 1.021116374469825,
+      "cumulative_seconds": 0.45997670001816005
+    },
+    {
+      "dim": 50,
+      "points": 1000,
+      "seed": 246,
+      "pairs": 499500,
+      "min": 1.7003626841803385,
+      "max": 3.9211893412500682,
+      "contrast": 1.3060899758220004,
+      "cumulative_seconds": 5.458736000000499
+    },
+    {
+      "dim": 50,
+      "points": 100,
+      "seed": 247,
+      "pairs": 4950,
+      "min": 2.0440910851358547,
+      "max": 3.6807196535244806,
+      "contrast": 0.800663228899045,
+      "cumulative_seconds": 0.07206909998785704
+    },
+    {
+      "dim": 50,
+      "points": 300,
+      "seed": 247,
+      "pairs": 44850,
+      "min": 1.8930849776959529,
+      "max": 3.792469750353429,
+      "contrast": 1.0033277930128581,
+      "cumulative_seconds": 0.550215300056152
+    },
+    {
+      "dim": 50,
+      "points": 1000,
+      "seed": 247,
+      "pairs": 499500,
+      "min": 1.6538499923004488,
+      "max": 3.8966925046713814,
+      "contrast": 1.3561341855746032,
+      "cumulative_seconds": 5.362433200003579
+    },
+    {
+      "dim": 50,
+      "points": 100,
+      "seed": 248,
+      "pairs": 4950,
+      "min": 1.9949930236376892,
+      "max": 3.7370093484980935,
+      "contrast": 0.8731941937741694,
+      "cumulative_seconds": 0.055688299937173724
+    },
+    {
+      "dim": 50,
+      "points": 300,
+      "seed": 248,
+      "pairs": 44850,
+      "min": 1.7812689122939125,
+      "max": 3.8418098498915714,
+      "contrast": 1.1567826302790523,
+      "cumulative_seconds": 0.5543286999454722
+    },
+    {
+      "dim": 50,
+      "points": 1000,
+      "seed": 248,
+      "pairs": 499500,
+      "min": 1.7569972736204789,
+      "max": 3.983475030445563,
+      "contrast": 1.2672061535059704,
+      "cumulative_seconds": 5.729836600017734
+    }
+  ]
+}

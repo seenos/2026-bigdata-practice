@@ -1,0 +1,3135 @@
+{
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9"
+  },
+  "success_definition": "Exact recovery of the three known index groups; label names ignored.",
+  "empty_cluster_policy": "Farthest point from the nearest occupied updated center; first input index breaks ties.",
+  "independent_checks": [
+    "assignment tie",
+    "empty cluster",
+    "duplicate coordinates",
+    "iteration cap",
+    "nonincreasing SSE"
+  ],
+  "summary": {
+    "random": {
+      "successes": 27,
+      "runs": 40,
+      "mean_sse": 31.31325,
+      "min_sse": 0.11999999999999958,
+      "max_sse": 96.105,
+      "mean_iterations": 2.55
+    },
+    "++": {
+      "successes": 40,
+      "runs": 40,
+      "mean_sse": 0.11999999999999958,
+      "min_sse": 0.11999999999999958,
+      "max_sse": 0.11999999999999958,
+      "mean_iterations": 2
+    }
+  },
+  "runs": [
+    {
+      "init": "random",
+      "seed": 0,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        75.93599999999999,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 1,
+      "labels": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.05,
+          0.1
+        ],
+        [
+          0.2,
+          0.1
+        ],
+        [
+          4.1,
+          8.1
+        ]
+      ],
+      "sse": 96.10499999999999,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.10499999999999,
+        96.10499999999999
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 2,
+      "labels": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          0.15000000000000002
+        ],
+        [
+          4.1,
+          8.1
+        ]
+      ],
+      "sse": 96.09,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.09,
+        96.09
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 3,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 4,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        46.905000000000015,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 5,
+      "labels": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.05
+        ],
+        [
+          8.1,
+          8.2
+        ],
+        [
+          0.09999999999999999,
+          4.1
+        ]
+      ],
+      "sse": 96.105,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.105,
+        96.105
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 6,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        75.93599999999999,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 7,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        87.97166666666669,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 8,
+      "labels": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.0,
+          8.0
+        ],
+        [
+          8.149999999999999,
+          8.149999999999999
+        ],
+        [
+          0.09999999999999999,
+          4.1
+        ]
+      ],
+      "sse": 96.09,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.09,
+        96.09
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 9,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 10,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 11,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        48.112500000000004,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 12,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.09999999999999999,
+          4.1
+        ],
+        [
+          8.1,
+          8.05
+        ],
+        [
+          8.1,
+          8.2
+        ]
+      ],
+      "sse": 96.105,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.105,
+        96.105
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 13,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.05
+        ],
+        [
+          0.09999999999999999,
+          4.1
+        ],
+        [
+          8.1,
+          8.2
+        ]
+      ],
+      "sse": 96.105,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.105,
+        96.105
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 14,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        106.34599999999998,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 15,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        46.905000000000015,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 16,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          8.149999999999999,
+          8.149999999999999
+        ],
+        [
+          0.09999999999999999,
+          4.1
+        ],
+        [
+          8.0,
+          8.0
+        ]
+      ],
+      "sse": 96.09,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.09,
+        96.09
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 17,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        93.7025,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 18,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        76.90799999999999,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 19,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        110.09499999999998,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 20,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.09999999999999999,
+          4.1
+        ],
+        [
+          8.1,
+          8.05
+        ],
+        [
+          8.1,
+          8.2
+        ]
+      ],
+      "sse": 96.105,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.105,
+        96.105
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 21,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 22,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 4,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        117.00266666666664,
+        96.12,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 23,
+      "labels": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 4,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        117.00266666666664,
+        96.12,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 24,
+      "labels": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          4.1,
+          8.1
+        ],
+        [
+          0.05,
+          0.1
+        ],
+        [
+          0.2,
+          0.1
+        ]
+      ],
+      "sse": 96.10499999999999,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.10499999999999,
+        96.10499999999999
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 25,
+      "labels": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          4.1,
+          8.1
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          0.15000000000000002
+        ]
+      ],
+      "sse": 96.09,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.09,
+        96.09
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 26,
+      "labels": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        48.112500000000004,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 27,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 28,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        46.912499999999994,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 29,
+      "labels": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          4.1,
+          8.1
+        ],
+        [
+          0.1,
+          0.05
+        ],
+        [
+          0.1,
+          0.2
+        ]
+      ],
+      "sse": 96.10499999999999,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.10499999999999,
+        96.10499999999999
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 30,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        48.112500000000004,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 31,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        46.912499999999994,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 32,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 33,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 34,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.09999999999999999,
+          4.1
+        ],
+        [
+          8.05,
+          8.1
+        ],
+        [
+          8.2,
+          8.1
+        ]
+      ],
+      "sse": 96.105,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.105,
+        96.105
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 35,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        46.905000000000015,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 36,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 37,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 4,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        117.00266666666664,
+        96.12,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 38,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 3,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        93.7025,
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "random",
+      "seed": 39,
+      "labels": [
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.0,
+          8.0
+        ],
+        [
+          8.149999999999999,
+          8.149999999999999
+        ],
+        [
+          0.09999999999999999,
+          4.1
+        ]
+      ],
+      "sse": 96.09,
+      "recovered": false,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 0,
+      "sse_history": [
+        96.09,
+        96.09
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 0,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 1,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 2,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 3,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 4,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 5,
+      "labels": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 6,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 7,
+      "labels": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 8,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 9,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 10,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 11,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 12,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 13,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 14,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 15,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 16,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 17,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 18,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 19,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 20,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 21,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 22,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 23,
+      "labels": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 24,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 25,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 26,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 27,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 28,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 29,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 30,
+      "labels": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 31,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 32,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 33,
+      "labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 34,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 35,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 36,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 37,
+      "labels": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 38,
+      "labels": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "centroids": [
+        [
+          0.10000000000000002,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          8.1,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    },
+    {
+      "init": "++",
+      "seed": 39,
+      "labels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "centroids": [
+        [
+          8.1,
+          8.1
+        ],
+        [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        [
+          0.10000000000000002,
+          8.1
+        ]
+      ],
+      "sse": 0.11999999999999958,
+      "recovered": true,
+      "iterations": 2,
+      "converged": true,
+      "initialization_distances": 18,
+      "sse_history": [
+        0.11999999999999958,
+        0.11999999999999958
+      ]
+    }
+  ],
+  "k_comparison": [
+    {
+      "k": 1,
+      "best_observed_sse": 256.12
+    },
+    {
+      "k": 2,
+      "best_observed_sse": 96.12
+    },
+    {
+      "k": 3,
+      "best_observed_sse": 0.11999999999999958
+    },
+    {
+      "k": 4,
+      "best_observed_sse": 0.08999999999999957
+    },
+    {
+      "k": 5,
+      "best_observed_sse": 0.05999999999999968
+    },
+    {
+      "k": 6,
+      "best_observed_sse": 0.029999999999999902
+    },
+    {
+      "k": 7,
+      "best_observed_sse": 0.019999999999999893
+    },
+    {
+      "k": 8,
+      "best_observed_sse": 0.009999999999999929
+    },
+    {
+      "k": 9,
+      "best_observed_sse": 0.0
+    }
+  ]
+}

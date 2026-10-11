@@ -8,6 +8,7 @@
 | 04 | [Mining Data Streams — Task 1·2·3](w04-stream/) | 스트림 알고리즘 구현, 메모리 비교, 필터 개선 완료 |
 | 05 | [Link Analysis — Task 1·2·3](w05-pagerank/) | PageRank 구현, 수렴 실험, 희소 구현 비교 완료 |
 | 06 | [Frequent Itemsets — Task 1·2·3](w06-apriori/) | Apriori·PCY 구현, 지지도 및 메모리 비교 완료 |
+| 07 | [Clustering — Task 1·2·3](w07-kmeans/) | k-means 구현, 차원별 거리 측정, 거리 계산 88.85% 감소 |
 
 ## 3주차 제출 자료
 
@@ -113,3 +114,19 @@ python ../check.py w06
 ```
 
 지지도 1까지 측정했지만 Task 2의 실제 부담 한계는 관찰되지 않았습니다. 이 한계를 문서에 명시했고 선택 Task 4(SON)는 제외했습니다.
+
+## 7주차 제출 자료
+
+- [7주차 안내·실행 방법](w07-kmeans/README.md)
+- [제출용 통합 관찰](w07-kmeans/out/observation.md)
+- [Task 1 관찰](w07-kmeans/observations/task1.md) · [Task 2 관찰](w07-kmeans/observations/task2.md) · [Task 3 관찰](w07-kmeans/observations/task3.md)
+- [차원별 거리 측정 보고서](w07-kmeans/out/curse.md) · [원시 측정값](w07-kmeans/out/curse.json)
+- [공식 벤치마크](w07-kmeans/out/bench.txt): 거리 호출 88.85% 감소, SSE 차이 0, strong
+
+```bash
+cd w07-kmeans
+python test_tasks.py
+python ../check.py w07
+```
+
+Task 1은 초기화 방법별 40개 시드를 비교했고 Task 2는 9개 차원과 점 개수 변화를 조건별 3회 측정했습니다. Task 3는 중심 이동·중심끼리의 거리도 포함해 계산 수를 집계했습니다.
