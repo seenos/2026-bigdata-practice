@@ -1,0 +1,135 @@
+{
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "python": "3.11.9",
+    "background": "Codex active; other user applications not controlled.",
+    "recorded_at": "2026-10-14T02:52:19.408198+00:00",
+    "ram_bytes": 16905064448,
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+  },
+  "protocol": {
+    "seed": 246,
+    "items": 2000,
+    "baskets": 100000,
+    "supports": [
+      2000,
+      1000,
+      500,
+      250,
+      125,
+      62,
+      31,
+      15,
+      7,
+      3,
+      1
+    ],
+    "algorithm_time_stop_seconds": 60,
+    "algorithm_memory_stop_bytes": 1000000000,
+    "generation_timeout_seconds": 180,
+    "note": "Separate larger-input experiment. Same generator and PlainApriori; bench.py unchanged. Algorithm wall time includes tracemalloc and progress monitor overhead; excludes prebuilt input and generation. Peak bytes are additional Python allocation, not total RAM. Stop is an operational waiting/allocation budget, not OOM or a physical maximum."
+  },
+  "runs": [
+    {
+      "event": "completed",
+      "support": 2000,
+      "seconds": 6.185286199994152,
+      "peak_bytes": 1163923,
+      "peak_counters": 9870,
+      "frequent_pairs": 255,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 1000,
+      "seconds": 10.560088799975347,
+      "peak_bytes": 6442200,
+      "peak_counters": 57291,
+      "frequent_pairs": 771,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 500,
+      "seconds": 19.890090400003828,
+      "peak_bytes": 30051320,
+      "peak_counters": 328065,
+      "frequent_pairs": 2198,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 250,
+      "seconds": 26.253337200003443,
+      "peak_bytes": 204393520,
+      "peak_counters": 1535237,
+      "frequent_pairs": 6193,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 125,
+      "seconds": 27.181034600012936,
+      "peak_bytes": 204358912,
+      "peak_counters": 1679357,
+      "frequent_pairs": 16213,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 62,
+      "seconds": 28.65674769997713,
+      "peak_bytes": 204357752,
+      "peak_counters": 1679357,
+      "frequent_pairs": 37956,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 31,
+      "seconds": 35.51343290001387,
+      "peak_bytes": 204760964,
+      "peak_counters": 1679357,
+      "frequent_pairs": 83850,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 15,
+      "seconds": 38.588440199993784,
+      "peak_bytes": 231756128,
+      "peak_counters": 1679357,
+      "frequent_pairs": 185979,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 7,
+      "seconds": 39.34909510001307,
+      "peak_bytes": 289558888,
+      "peak_counters": 1679357,
+      "frequent_pairs": 418096,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 3,
+      "seconds": 37.72967879998032,
+      "peak_bytes": 426350305,
+      "peak_counters": 1679357,
+      "frequent_pairs": 954300,
+      "status": "completed"
+    },
+    {
+      "event": "completed",
+      "support": 1,
+      "seconds": 38.52004760000273,
+      "peak_bytes": 624905793,
+      "peak_counters": 1679357,
+      "frequent_pairs": 1679357,
+      "status": "completed"
+    }
+  ],
+  "status": "completed_without_boundary"
+}

@@ -80,7 +80,7 @@ MB는 1,000,000 bytes이다. {len(rows)}개 지지도, 최대·최소 {rows[0]['
 
 {stop} 가장 긴 실행은 {max(r['seconds'] for r in rows):.2f}초, 가장 큰 추가 할당은 {max(r['peak_bytes'] for r in rows)/1e6:.2f} MB였다. 시간 60초 또는 추가 할당 1 GB를 완료 조건별 확장 중지 기준으로 설정했으며 메모리 부족·실행 실패는 관찰되지 않았다. 이 기준은 강제 timeout이나 메모리 제한은 아니다.
 
-이번 고정 데이터에서 컴퓨터가 감당하지 못하는 지지도를 발견했다고 주장하지 않는다. 과제 A2가 기대하는 실제 부담 지점은 관찰하지 못했으며, 지원 범위의 최솟값에 도달한 결과로 기록한다. 입력 크기를 바꾸면 다른 결과가 나올 수 있지만 이번 실험에서 측정한 것은 아니다.
+이번 고정 데이터에서 컴퓨터가 감당하지 못하는 지지도를 발견했다고 주장하지 않는다. 기본 입력에서는 A2의 부담 지점을 관찰하지 못했으며, 지원 범위의 최솟값에 도달한 결과로 기록한다. 입력 크기를 바꾸면 다른 결과가 나올 수 있지만 이 기본 실험에서 측정한 것은 아니다.
 
 ## 재현
 
@@ -101,7 +101,7 @@ python test_tasks.py --task 2
 
 ## 실제 종료 사유
 
-{stop} 최고 시간은 {max(r['seconds'] for r in rows):.2f}초, 최고 추가 Python 할당은 {max(r['peak_bytes'] for r in rows)/1e6:.2f} MB였으며 시간·메모리 고갈은 관찰되지 않았다. 따라서 “지지도 몇에서 컴퓨터 한계에 도달했다”는 결론은 내릴 수 없다. 최소 기준까지 실행한 사실과 과제 A2의 부담 지점을 찾지 못한 한계를 함께 기록한다.
+{stop} 최고 시간은 {max(r['seconds'] for r in rows):.2f}초, 최고 추가 Python 할당은 {max(r['peak_bytes'] for r in rows)/1e6:.2f} MB였으며 시간·메모리 고갈은 관찰되지 않았다. 따라서 기본 입력만으로 “지지도 몇에서 컴퓨터 한계에 도달했다”는 결론은 내릴 수 없다. 기본 실험이 최소 기준까지 실행됐다는 사실과 한계 탐색을 위한 보충 실험은 구분한다.
 
 Core i5-11400H, RAM 약 15.74 GiB, Python 3.11.9에서 Codex가 실행 중이었으며 다른 앱은 통제하지 않았다. 계측 오버헤드를 포함한 단회 결과로, 일반적인 실행 시간이나 실제 프로세스 RAM과 구분한다.
 
@@ -123,6 +123,8 @@ Core i5-11400H, RAM 약 15.74 GiB, Python 3.11.9에서 Codex가 실행 중이었
     if task3 is not None:
         s = s[:s.index('## Task 3')] + task3
     p.write_text(s,encoding='utf-8')
+    from task2_boundary_report import extend_reports
+    extend_reports(root)
     print('Reports and SVG written from',len(rows),'completed conditions.')
 
 

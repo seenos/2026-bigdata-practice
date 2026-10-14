@@ -9,7 +9,7 @@ Apriori와 연관 규칙을 구현하고 지지도별 후보 증가 및 PCY의 �
 - [Task 2 상세 관찰](observations/task2.md) · [측정 표·그래프](out/explosion.md) · [원시 결과](out/explosion.json)
 - [Task 3 상세 관찰](observations/task3.md) · [공식 출력](out/bench.txt) · [실제 메모리 비교](out/evidence/pcy_memory.json)
 
-Task 2는 지지도 400부터 1까지 9개 조건을 완료했다. 최소 기준에서도 설정한 부담 기준에 도달하지 않았으므로 A2의 한계 지점은 관찰하지 못했다고 명시했다. Task 3는 같은 빈발 쌍을 찾고 쌍 카운터 97.6% 감소로 strong을 받았다. 카운터 개수와 실제 추가 Python 메모리, 실행 시간은 구분한다.
+Task 2는 기본 20,000개 입력에서 지지도 400부터 1까지 9개 조건을 완료했다. 추가로 입력을 100,000개와 200,000개로 확장했고, 200,000개·지지도 250에서 약 60.69초·관측 추가 Python 할당 204.88 MB로 시간 기준에 도달해 중단했다. 이는 사전에 정한 대기 예산이며 메모리 고갈이나 물리적 최대 입력 크기는 아니다. [A2 보충 측정](out/a2_boundary.md)에 완료·중단 데이터를 구분했다. Task 3는 같은 빈발 쌍을 찾고 쌍 카운터 97.6% 감소로 strong을 받았다. 카운터 개수와 실제 추가 Python 메모리, 실행 시간은 구분한다.
 
 ## 빠른 검증
 
@@ -42,8 +42,9 @@ Task 2는 결과를 누적하고 완료 조건마다 저장한다. task2_report.
 - bench.py, test_tasks.py: 제공 평가 코드
 - task1_experiment.py, task3_experiment.py: 보충 검증·측정 재현
 - task2_report.py: 표와 그래프 생성
+- task2_boundary.py, task2_boundary_report.py: 별도 입력 크기의 A2 중단 측정과 보고서 통합
 - observations/: Task별 상세 관찰
 - out/: 제출용 요약, 측정 JSON·보고서·그래프, 벤치마크 기록
-- out/evidence/: Task 1 규칙·후보 수 및 PCY 메모리 비교 원시 자료
+- out/evidence/: Task 1 규칙·후보 수, PCY 메모리 비교, A2 확장·중단 원시 자료
 
 [수업 원본](https://github.com/codingchild2424/2026-lecture-bigdata-practice/tree/main/w06-apriori)

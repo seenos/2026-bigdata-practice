@@ -1,0 +1,43 @@
+{
+  "machine": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "python": "3.11.9",
+    "background": "Codex active; other user applications not controlled.",
+    "recorded_at": "2026-10-14T03:46:45.118603+00:00",
+    "ram_bytes": 16905064448,
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+  },
+  "protocol": {
+    "seed": 246,
+    "items": 2000,
+    "baskets": 200000,
+    "supports": [
+      250,
+      125,
+      62,
+      31,
+      15,
+      7,
+      3,
+      1
+    ],
+    "algorithm_time_stop_seconds": 60,
+    "algorithm_memory_stop_bytes": 1000000000,
+    "generation_timeout_seconds": 180,
+    "note": "Separate larger-input experiment. Same generator and PlainApriori; bench.py unchanged. Algorithm wall time includes tracemalloc and progress monitor overhead; excludes prebuilt input and generation. Peak bytes are additional Python allocation, not total RAM. Stop is an operational waiting/allocation budget, not OOM or a physical maximum."
+  },
+  "runs": [
+    {
+      "event": "progress",
+      "support": 250,
+      "seconds": 60.69266499998048,
+      "peak_bytes": 204879931,
+      "observed_pair_counters": 1706593,
+      "status": "stopped",
+      "reason": "time_budget",
+      "note": "Last live sample at termination; partial run, no final answer count."
+    }
+  ],
+  "status": "boundary_observed"
+}
